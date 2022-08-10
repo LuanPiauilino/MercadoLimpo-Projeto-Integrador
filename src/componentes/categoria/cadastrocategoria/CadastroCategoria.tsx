@@ -107,8 +107,6 @@ function CadastroCategoria(){
                         Finalizar
                     </Button>
                     </Box>
-                   
-                    </Box>
                     
                 </form>
                
