@@ -48,7 +48,9 @@ function Carrinho() {
 
   async function findByIdProduto(id: string) {
     await buscarId(`produtos/${id}`, setProduto, {
-      headers: {}
+      headers: {
+        'Authorization': token
+      }
     })
   }
   
